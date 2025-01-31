@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="thumb">
+            <div onmouseover="changeImgSrc('red.png')"><img src="red.png" alt=""></div>
+            <div onmouseover="changeImgSrc('pink.jpeg')"><img src="pink.jpeg" alt=""></div>
+            <div onmouseover="changeImgSrc('blue.png')"><img src="blue.png" alt=""></div>
+        </div>
+        <div class="imgBox">
+            <h2>Mike Air Zoom</h2>
+            <img src="red.png" alt="" class="mainImg">
+            <div class="size">
+                <span>Size</span>
+                <div>7</div>
+                <div>8</div>
+                <div>9</div>
+                <div>10</div>
+            </div>
+            <a href="" class="btn">Add To Cart</a>
+        </div>
+    </div>
+
+    <script>
+        function changeImgSrc(anything){
+            document.querySelector('.mainImg').src = anything;
+        }
+    </script>
+</body>
+</html>
