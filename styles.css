@@ -7,7 +7,8 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: start; */
+    padding-top: 100px;
     min-height: 100vh;
     background: url('https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2563.jpg?semt=ais_hybrid');
     background-attachment: fixed;
